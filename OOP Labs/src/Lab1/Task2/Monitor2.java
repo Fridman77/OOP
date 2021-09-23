@@ -1,2 +1,4 @@
-package Lab1.Task2;public class Monitor2 {
+package Lab1.Task2;
+
+public class Monitor2 {
 }
