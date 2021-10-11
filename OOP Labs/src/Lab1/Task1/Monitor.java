@@ -1,6 +1,7 @@
-package Lab1.Task2;
+package Lab1.Task1;
 
 public class Monitor {
+    //Setting up all the information about a monitor
     private String ModelName;
     private String Color;
     public int MonitorPrice;
@@ -19,6 +20,7 @@ public class Monitor {
         this.IsCurbed = IsCurbed;
     }
 
+    //Print a brief information about the monitor
     public void info() {
         System.out.println("Monitor Proprieties are :\n"+"Model:"+ModelName+"\n"+"Color:"+Color+"\n"+"Price(USD):"+MonitorPrice+
                 "\n"+"Resolution:"+HorizontalPixels+"x"+VerticalPixels+"\n"+"RefreshRate:"+RefreshRate+"Hz"+"\n"+

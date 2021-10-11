@@ -1,16 +1,15 @@
 
 package Lab2.Task1;
-import java.util.*;
 
-public class Quee {
+public class Calculations {
 
-    public static void main(String[] args) {
+    public static int area(int width, int height , int Depth) {
+        int areaCube= 2*(width*height+width*Depth+height*Depth);
+        return areaCube ;
+    }
 
-        Queue<Box> str_queue = new LinkedList<>();
-        str_queue.add();
-        str_queue.add();
-        str_queue.add();
-        System.out.println("The Queue contents:" + str_queue);
-
+    public static int volume(int width, int height ,int Depth) {
+        int volumeCube= (width*height*Depth);
+        return volumeCube ;
     }
 }
